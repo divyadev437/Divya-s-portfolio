@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-48 h-48 rounded-full border-4 border-primary glow-border overflow-hidden float">
                 <img 
-                  src={developerPortrait} 
+                  src={"/mypic.jpg"} 
                   alt="Developer Portrait" 
                   className="w-full h-full object-cover"
                 />
