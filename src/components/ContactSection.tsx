@@ -24,19 +24,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      detail: "alex.johnson@email.com",
+      detail: "divyaramanaboina@gmail.com",
       description: "Drop me a line anytime"
     },
     {
       icon: Phone,
       title: "Phone",
-      detail: "+1 (555) 123-4567",
+      detail: "+91 7981995921",
       description: "Available Mon-Fri 9AM-6PM"
     },
     {
       icon: MapPin,
       title: "Location",
-      detail: "San Francisco, CA",
+      detail: "Guntur, India",
       description: "Open to remote work"
     }
   ];
@@ -174,17 +174,7 @@ const ContactSection = () => {
               </Card>
 
               {/* Availability */}
-              <Card className="neon-card p-6 text-center">
-                <div className="flex items-center justify-center gap-3 mb-4">
-                  <div className="w-3 h-3 bg-neon-green rounded-full animate-pulse"></div>
-                  <span className="text-lg font-orbitron font-semibold text-neon-green">
-                    Available for Projects
-                  </span>
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Currently accepting new projects and collaborations
-                </p>
-              </Card>
+            
             </motion.div>
           </div>
         </motion.div>

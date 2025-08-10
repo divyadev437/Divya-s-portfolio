@@ -18,10 +18,7 @@ const AboutSection = () => {
   };
 
   const stats = [
-    { icon: Code, label: "Projects Completed", value: "50+" },
-    { icon: Zap, label: "Years Experience", value: "5+" },
-    { icon: Palette, label: "Design Awards", value: "12" },
-    { icon: Rocket, label: "Happy Clients", value: "30+" }
+    { icon: Code, label: "Projects Completed", value: "1" },
   ];
 
   return (
@@ -47,21 +44,10 @@ const AboutSection = () => {
             {/* About Text */}
             <motion.div variants={fadeInUp} className="space-y-6">
               <h3 className="text-3xl font-orbitron font-semibold text-secondary glow-text-secondary">
-                Passionate Developer & Creative Technologist
+                Passionate AI Data Science Undergraduate
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a full-stack developer with a passion for creating extraordinary digital experiences. 
-                With over 5 years in the industry, I specialize in modern web technologies, 
-                3D graphics, and interactive user interfaces.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                My journey began with a curiosity for how things work and evolved into a career 
-                where I get to build the future of web experiences. I believe in clean code, 
-                beautiful design, and the power of technology to solve real-world problems.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to 
-                open-source projects, or mentoring aspiring developers in the community.
+                A passionate and results-driven AI Data Science undergraduate with hands-on experience in automation and AI-based projects. Equipped with strong analytical skills and the ability to learn quickly. Seeking opportunities to contribute to impactful real-world solutions while continuing to grow as a data professional.
               </p>
             </motion.div>
 

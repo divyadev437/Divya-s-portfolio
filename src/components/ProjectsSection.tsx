@@ -24,10 +24,11 @@ const ProjectsSection = () => {
       title: "NeuroSpace VR",
       description: "Immersive virtual reality platform for brain training and cognitive enhancement using WebXR and Three.js.",
       tags: ["React", "Three.js", "WebXR", "TensorFlow.js", "Node.js"],
-      image: "https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=600&h=400&fit=crop",
       gradient: "from-neon-purple to-neon-cyan",
       featured: true
     },
+
     {
       id: 2,
       title: "CryptoTracker Pro",

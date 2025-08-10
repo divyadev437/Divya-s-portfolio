@@ -22,31 +22,22 @@ const SkillsSection = () => {
       gradient: "from-neon-purple to-neon-cyan",
       skills: [
         "React.js", "Next.js", "TypeScript", "Tailwind CSS",
-        "Three.js", "Framer Motion", "WebGL", "Vue.js"
+        "Three.js"
       ]
     },
     {
       title: "Backend & Database",
       gradient: "from-neon-cyan to-neon-green",
       skills: [
-        "Node.js", "Python", "PostgreSQL", "MongoDB",
-        "Redis", "GraphQL", "REST APIs", "Microservices"
-      ]
-    },
-    {
-      title: "Cloud & DevOps",
-      gradient: "from-neon-green to-electric-blue",
-      skills: [
-        "AWS", "Docker", "Kubernetes", "CI/CD",
-        "Terraform", "Monitoring", "Security", "Scaling"
+        "Node.js", "Python", "MongoDB",
       ]
     },
     {
       title: "Design & Tools",
       gradient: "from-electric-blue to-neon-purple",
       skills: [
-        "Figma", "Photoshop", "Blender", "Git",
-        "VS Code", "Adobe Creative Suite", "Sketch", "Principle"
+        "Figma","Git",
+        "VS Code"
       ]
     }
   ];
@@ -121,26 +112,7 @@ const SkillsSection = () => {
           </motion.div>
 
           {/* Additional Skills Showcase */}
-          <motion.div variants={fadeInUp} className="mt-16 text-center">
-            <h3 className="text-2xl font-orbitron font-semibold mb-8 text-secondary glow-text-secondary">
-              Always Learning & Exploring
-            </h3>
-            <div className="flex flex-wrap justify-center gap-4">
-              {["AI/ML", "Blockchain", "WebAssembly", "AR/VR", "IoT", "Quantum Computing"].map((tech, index) => (
-                <motion.span
-                  key={index}
-                  className="px-4 py-2 bg-gradient-neon text-black rounded-full text-sm font-rajdhani font-medium"
-                  initial={{ scale: 0 }}
-                  whileInView={{ scale: 1 }}
-                  transition={{ duration: 0.3, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ scale: 1.1 }}
-                >
-                  {tech}
-                </motion.span>
-              ))}
-            </div>
-          </motion.div>
+          
         </motion.div>
       </div>
     </section>

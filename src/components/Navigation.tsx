@@ -20,6 +20,9 @@ const Navigation = () => {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Skills', href: '#skills' },
+   { label: 'Internship', href: '#internships' },
+
+
     { label: 'Projects', href: '#projects' },
     { label: 'Contact', href: '#contact' },
   ];
@@ -51,7 +54,7 @@ const Navigation = () => {
             className="text-2xl font-orbitron font-bold text-primary glow-text cursor-pointer"
             onClick={() => scrollToSection('#home')}
           >
-            AJ
+            Divya Shree
           </motion.div>
 
           {/* Desktop Navigation */}

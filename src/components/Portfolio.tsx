@@ -7,6 +7,7 @@ import HeroSection from './HeroSection';
 import AboutSection from './AboutSection';
 import SkillsSection from './SkillsSection';
 import ProjectsSection from './ProjectsSection';
+import InternshipSection from './InternshipSection'; // ✅ NEW
 import ContactSection from './ContactSection';
 
 const LoadingSpinner = () => (
@@ -24,15 +25,15 @@ const Portfolio = () => {
     <div className="relative min-h-screen overflow-x-hidden">
       {/* Custom Cursor */}
       <CustomCursor />
-      
+
       {/* 3D Background */}
       <Suspense fallback={null}>
         <ThreeDBackground />
       </Suspense>
-      
+
       {/* Navigation */}
       <Navigation />
-      
+
       {/* Main Content */}
       <main className="relative z-10">
         {/* Hero Section */}
@@ -41,28 +42,33 @@ const Portfolio = () => {
             <HeroSection />
           </Suspense>
         </div>
-        
+
         {/* About Section */}
         <div id="about">
           <AboutSection />
         </div>
-        
+
         {/* Skills Section */}
         <div id="skills">
           <SkillsSection />
         </div>
-        
+
         {/* Projects Section */}
         <div id="projects">
           <ProjectsSection />
         </div>
-        
+
+        {/* ✅ Internship Section */}
+        <div id="internships">
+          <InternshipSection />
+        </div>
+
         {/* Contact Section */}
         <div id="contact">
           <ContactSection />
         </div>
       </main>
-      
+
       {/* Footer */}
       <footer className="relative z-10 py-12 border-t border-primary/20">
         <div className="container mx-auto px-4">
@@ -74,7 +80,7 @@ const Portfolio = () => {
             className="text-center"
           >
             <p className="text-muted-foreground font-rajdhani">
-              © 2024 Alex Johnson. Crafted with passion and futuristic vision.
+              © 2025 Divya Shree. Built with innovation and a vision for intelligent systems.
             </p>
             <div className="mt-4 flex justify-center gap-6">
               <span className="text-sm text-primary">•</span>

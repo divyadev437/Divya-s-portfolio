@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden mt-32">
       {/* Animated gradient background */}
       <div className="absolute inset-0 bg-gradient-cosmic opacity-50"></div>
-      
+
       {/* Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="text-center">
@@ -21,9 +21,9 @@ const HeroSection = () => {
           >
             <div className="relative">
               <div className="w-48 h-48 rounded-full border-4 border-primary glow-border overflow-hidden float">
-                <img 
-                  src={"/mypic.jpg"} 
-                  alt="Developer Portrait" 
+                <img
+                  src={"/mypic.jpg"}
+                  alt="Developer Portrait"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -38,9 +38,9 @@ const HeroSection = () => {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-6xl md:text-8xl font-orbitron font-bold mb-6 glow-text"
+            className="text-6xl md:text-8xl font-orbitron font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 text-transparent bg-clip-text"
           >
-            Alex <span className="text-primary">Johnson</span>
+            Divya Shree <span className="text-white">Ramanaboina</span>
           </motion.h1>
 
           {/* Animated Tagline */}
@@ -51,12 +51,11 @@ const HeroSection = () => {
             className="mb-8"
           >
             <h2 className="text-2xl md:text-4xl font-rajdhani font-light text-muted-foreground mb-4">
-              Full-Stack Developer & 
-              <span className="text-secondary glow-text-secondary"> Digital Architect</span>
+              AI &
+              <span className="text-secondary glow-text-secondary">  Data Science Enthusiast </span>
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Crafting immersive digital experiences with cutting-edge technology, 
-              innovative design, and seamless user interactions.
+              Building intelligent, real-world solutions using AI, Computer Vision, and Web Technologies. Passionate about Python, Flask, and Machine Learning
             </p>
           </motion.div>
 
@@ -82,15 +81,29 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 1.0 }}
             className="flex justify-center gap-6 mb-12"
           >
-            <Button variant="ghost" size="icon" className="glow-border hover:glow-border">
-              <Github className="w-6 h-6" />
-            </Button>
-            <Button variant="ghost" size="icon" className="glow-border hover:glow-border">
-              <Linkedin className="w-6 h-6" />
-            </Button>
-            <Button variant="ghost" size="icon" className="glow-border hover:glow-border">
-              <Mail className="w-6 h-6" />
-            </Button>
+            <a
+              href="https://github.com/divyadev437"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="ghost" size="icon" className="glow-border hover:glow-border">
+                <Github className="w-6 h-6" />
+              </Button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/divya-shree-ramanaboina-2852a926a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="ghost" size="icon" className="glow-border hover:glow-border">
+                <Linkedin className="w-6 h-6" />
+              </Button>
+            </a>
+            <a href="mailto:divyaramanaboina@gmail.com">
+              <Button variant="ghost" size="icon" className="glow-border hover:glow-border">
+                <Mail className="w-6 h-6" />
+              </Button>
+            </a>
           </motion.div>
 
           {/* Scroll Indicator */}
